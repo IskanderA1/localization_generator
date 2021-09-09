@@ -11,5 +11,5 @@ builders:
     builder_factories: ['constGeneratorBuilder']
     auto_apply: dependents
     build_extensions: {".dart": [".const.dart"]}
-    build_to: cache
+    build_to: source
     applies_builders: ["source_gen|combining_builder"]
