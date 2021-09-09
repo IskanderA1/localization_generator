@@ -4,7 +4,7 @@ targets:
       localization_generator|constGeneratorBuilder:
         enabled: true
         generate_for:
-          - lib/localization/keys/**.dart
+          - lib/localization/keys/*.dart
 
 
 builders:
