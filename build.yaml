@@ -3,12 +3,15 @@ targets:
     builders:
       localization_generator|constGeneratorBuilder:
         enabled: true
+        generate_for:
+          - lib/localization/keys/**.dart
+
 
 builders:
   constGeneratorBuilder:
     import: 'package:localization_generator/localization_generator.dart'
     builder_factories: ['constGeneratorBuilder']
     auto_apply: dependents
-    build_extensions: {".dart": [".g.dart"]}
+    build_extensions: {".dart": [".const.dart"]}
     build_to: source
     applies_builders: ["source_gen|combining_builder"]
