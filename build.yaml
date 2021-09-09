@@ -2,8 +2,7 @@ targets:
   $default:
     builders:
       localization_generator|constGeneratorBuilder:
-        generate_for:
-          - lib/localization/keys/*.dart
+        enabled: true
 
 builders:
   constGeneratorBuilder:
