@@ -129,7 +129,7 @@
     },
     {
       "name": "fast_immutable_collections",
-      "rootUri": "file:///Users/iskander/.pub-cache/hosted/pub.dartlang.org/fast_immutable_collections-7.0.3",
+      "rootUri": "file:///Users/iskander/.pub-cache/hosted/pub.dartlang.org/fast_immutable_collections-6.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -440,7 +440,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-23T06:34:44.904660Z",
+  "generated": "2021-11-23T06:44:35.865910Z",
   "generator": "pub",
   "generatorVersion": "2.14.2"
 }
